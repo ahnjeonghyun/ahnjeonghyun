@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ahn_jh</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <link rel="stylesheet" href="style2.css"/>
+  </head>
+  <body>
+    <div class="header">
+    <h1> AHN JEONGHYUN </h1>
+    <ul>
+        <li><a href="selfins.html">HOME</a></li>
+        <li><a href="FAVORITE.html">FAVORITE</a></li>
+        <li><a href="sefin5.html">PROJECT</a></li>
+    </ul>
+    <div class="asideArea">
+      <strong>
+        <a href='#none'><img src="menu.png"/></a>
+      </strong>
+    </div>
+  </div>
+    <!--명함-->
+    <div id="aside" class="ease5">
+  <div class="asideClose"><img src="https://kim-bora.github.io/candy/images/aside_close.png"></div>
+  <div class="asideBox">
+    <div class="topArea">
+      <h1>AHN JEONGHYUN</h1>
+      <div class="menuBox" id="menuCate">
+        <div><span> 25 years </span></div>
+        <div><span>+82 10 3090 8382</span></div>
+        <div><span>tgrf3090@gmail.com</span></div>
+      </div>
+      <h1><a href="https://github.com/ahnjeonghyun" class="linear5" target="_blank">My github</a></h1>
+      <h1><a href="#none" class="linear5">Wecoder</a></h1>
+    </div>
+    <div class="bottomArea">
+      <!-- 스킬
+      <h1>Skill</h1>
+      <div class="menuBox">
+        <div>스킬1</div>
+        <div>스킬2</div>
+        <div>스킬3</div>
+        <div>스킬4</div>
+      </div>
+       -->
+      <p class="txt">Happy things happen every day.</p>
+    </div>
+  </div>
+  <!--어사이드 끝 -->
+</div>
+<div class="asideClose"><img src="./images/aside_close.png"></div>
+<!--명함끝-->
+<div class="profile2">
+  <p>
+    <span>안녕하세요</span>
+  </p>
+  <p>
+    <span>안정현 입니다.</span>
+  </p>
+  <p>
+    <span>나이는 25살 입니다. </span>
+  </p>
+  <p>
+    <span>취미로 바이크를 타며,</span>
+  </p>
+  <p>
+    <span>계획없이 떠나는 여행을 정말 좋아합니다.</span>
+  </p>
+</div>
+<script>
+    // 명함 온오프
+    $(document).ready(function(){
+    $('.asideArea, #aside .asideClose').click(function(){
+        $('body').toggleClass('asideopen');
+    });
+  });
+</script>
+  </body>
+</html>

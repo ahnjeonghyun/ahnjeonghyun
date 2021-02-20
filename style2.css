@@ -1,0 +1,196 @@
+body{
+  background-image: url('jeju.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+h1{
+  font-family: -apple-system;
+  font-size: 30px;
+  /* padding-left: 50px; */
+}
+ul{
+  text-align: right;
+}
+li{
+  font-family: -apple-system;
+  padding-left: 15px;
+  font-size: 20px;
+  list-style: none;
+  display: inline-block;
+}
+a{
+color: white;
+text-decoration: none;
+}
+#aside {
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height: 100%;
+background:rgba(0,0,0,0.45);
+z-index:11;
+top:-100px;
+visibility:hidden;
+}
+body.asideopen #aside {
+top:0;
+visibility:visible;
+}
+#aside .asideBox {
+width: 30%;
+margin:0 auto;
+background:rgba(0,0,0,0.7);
+min-height: 100%;
+min-width: 355px;
+}
+#aside .asideBox {
+color:#fff;
+}
+#aside .asideBox h1 {
+margin-bottom: 20px;
+}
+#aside .asideBox h1 {
+font-weight:400;
+text-decoration:underline;
+font-size: 30px;
+color:#fff;
+margin-top: 80px;
+}
+#aside .asideBox h1 a {
+color:#fff;
+}
+#aside .asideBox h1 a:hover {
+opacity:.5;
+filter:alpha(opacity=50);
+}
+#aside .asideBox .menuBox {
+margin-bottom: 30px;
+font-size: 1.5px;
+font-weight: 100;line-height: 1.8;8;
+}
+#aside .asideBox .menuBox span {
+font-size: 20px;
+font-weight:100;
+}
+#aside .asideBox .topArea {
+height: 71px;
+padding-top: 71px;
+border-bottom: 1px solid #333;
+margin: 0 5px;
+-webkit-box-sizing: border-box;
+-khtml-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-ms-box-sizing: border-box;
+-o-box-sizing: border-box;
+box-sizing: border-box;
+}
+#aside .asideBox .bottomArea {
+height: 40px;
+margin:0 50px;
+padding-top: 5px;
+position: relative;
+-webkit-box-sizing: border-box;
+-khtml-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-ms-box-sizing: border-box;
+-o-box-sizing: border-box;
+box-sizing: border-box;
+}
+#aside .asideClose {
+position:absolute;
+top: 50px;
+left:50%;
+cursor:pointer;
+margin-left: -18px;
+}
+.asideBox {
+text-align:center;
+}
+#aside .asideBox .txt {
+font-size: 1px;
+font-weight: 100;
+position: absolute;
+bottom: 40px;
+left: 0;
+right: 0;
+}
+#aside .asideClose {
+position:absolute;
+top: 21px;
+left:50%;
+cursor:pointer;
+margin-left: -18px;
+}
+.header h1, .header ul, .header .asideArea{
+display:inline-block;
+width: 33%;
+-webkit-box-sizing: border-box;
+-khtml-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-ms-box-sizing: border-box;
+-o-box-sizing: border-box;
+box-sizing: border-box;
+
+}
+.header .asideArea {
+text-align: right;
+}
+.header ul {
+text-align: center;
+}
+
+/* FAVORITE */
+
+  .favorite{
+    background-image: url('제주_rsg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+  }
+.swiper-container-horizontal > .swiper-pagination-bullets {
+bottom: 2px;
+}
+
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets {
+/* bottom: 5px; */
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+background: #000;
+}
+
+#moto, #moto2, #moto3 {font-size: 100px;
+position: absolute;
+left: 5px;
+top: 42%;
+}
+/*div{
+padding-left: 150px;
+}*/
+.bike, .camera, .camp{
+margin-left: 150px !important;
+padding-bottom: 20px !important;
+}
+.box{
+width: 1000px;
+position: relative;
+margin: 0 auto;
+margin-top: 100px;
+}
+
+/* FAVORITE */
+/* HOME */
+.profile2{
+  text-align: center;
+background: rgba(255, 255, 255, 0.7);
+padding: 15px;
+display: block;
+margin: 70px auto 0;
+width: 350px;
+margin-top: 130px;
+
+}
